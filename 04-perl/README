@@ -1,0 +1,27 @@
+******************************
+*****
+*****  PERL PROGRAMMING  *****
+*****
+******************************
+
+
+For those using Linux, there is a script named "setup-perl-linux.sh" which will
+download various Perl programming language related documentation to your computer.
+It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+
+
+Links:
+
+http://www.perl.org/
+http://www.cpan.org/
+http://www.perlfoundation.org/
+http://www.perlmonks.org/
+http://en.wikipedia.org/wiki/Perl_programming
+
+
+Books:
+
+ISBN-13: 9780596004927 -- PROGRAMMING PERL
+ISBN-13: 9781449393113 -- MASTERING PERL
+ISBN-13: 9780596003135 -- PERL COOKBOOK (2nd Edition)
+

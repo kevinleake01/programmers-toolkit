@@ -1,0 +1,27 @@
+******************************
+*****
+*****  PROGRAMMING IN D  *****
+*****
+******************************
+
+For those using Linux, there is a script named "setup-d-linux.sh" which will
+download various D programming language related documentation to your computer.
+It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+
+
+Links:
+
+http://dlang.org/
+http://www.dprogramming.com/
+http://www.dsource.org/
+http://www.prowiki.org/wiki4d/wiki.cgi
+http://ddili.org/ders/d.en/index.html
+http://www.dmoz.org/Computers/Programming/Languages/D/
+http://en.wikipedia.org/wiki/D_programming
+
+
+Books:
+
+ISBN-13: 9780321635365 -- THE D PROGRAMMING LANGUAGE
+ISBN-13: 9781590599600 -- LEARN TO TANGO WITH D
+

@@ -1,0 +1,25 @@
+***********************************
+*****
+*****  PROGRAMMING IN PYTHON  *****
+*****
+***********************************
+
+
+For those using Linux, there is a script named "setup-python-linux.sh" which will
+download various Python programming language related documentation to your computer.
+It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+
+
+Links:
+
+https://www.python.org/
+http://learning-python.com/
+http://en.wikipedia.org/wiki/Python_%28programming_language%29
+
+
+Books:
+
+ISBN-13: 9780596158101 -- PROGRAMMING PYTHON
+ISBN-13: 9781449355739 -- LEARNING PYTHON
+ISBN-13: 9781449340377 -- PYTHON COOKBOOK
+

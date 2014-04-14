@@ -1,0 +1,34 @@
+*******************************
+*****
+*****  PROGRAMMING IN GO  *****
+*****
+*******************************
+
+
+The Go Progamming Language has been said by many people as one of the best and
+most advanced of the computer programming languages of the 21st Century.
+
+For those using Linux, there is a script named "setup-go-linux.sh" which will
+download various Go programming language related documentation to your computer.
+It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+
+
+Links:
+
+http://golang.org/
+https://code.google.com/p/go/
+http://www.golang-book.com/
+http://godoc.org/
+http://gofmt.com/
+http://go-lang.cat-v.org/
+http://en.wikipedia.org/wiki/Go_%28programming_language%29
+http://gccgo.sourceforge.net/
+https://code.google.com/p/llgo/
+
+
+Books:
+
+ISBN-13: 9781469769165 -- THE WAY TO GO
+ISBN-13: 9780321774637 -- PROGRAMMING IN GO
+ISBN-13: 9780321817143 -- THE GO PROGRAMMING LANGUAGE PHRASEBOOK
+

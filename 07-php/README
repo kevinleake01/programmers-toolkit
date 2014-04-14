@@ -1,0 +1,26 @@
+************************************
+*****
+*****  PHP SCRIPTING LANGUAGE  *****
+*****
+************************************
+
+
+PHP is a web server based scripting programming language.
+
+For those using Linux, there is a script named "setup-php-linux.sh" which will
+download various PHP Scripting language related documentation to your computer.
+It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+
+
+Links:
+
+http://php.net/
+http://en.wikipedia.org/wiki/Php
+
+
+Books:
+
+ISBN-13: 9781449392772 -- PROGRAMMING PHP
+ISBN-13: 9780596101015 -- PHP COOKBOOK (2nd Edition)
+ISBN-13: 9781494267353 -- THE JOY OF PHP
+
