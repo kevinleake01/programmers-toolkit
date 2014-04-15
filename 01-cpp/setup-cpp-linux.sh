@@ -29,7 +29,7 @@ wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/libstdc++-api.pdf.gz
 wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/docs-sources.tar.gz
 wget http://gcc.gnu.org/onlinedocs/gccint.pdf
 wget http://gcc.gnu.org/onlinedocs/cppinternals.pdf
-svn checkout svn://gcc.gnu.org/svn/gcc/trunk gcc
+wget ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.8.2/gcc-4.8.2.tar.bz2
 cd ../
 
 # --- LLVM/CLANG ---
