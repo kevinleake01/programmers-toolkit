@@ -29,7 +29,9 @@ cd ../
 # ----- GCCGO -----
 mkdir 02-gccgo
 cd 02-gccgo
-wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/gccgo.pdf
+wget http://golang.org/doc/install/gccgo -O setup-gccgo.html
+wget http://golang.org/doc/gccgo_contribute.html
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/gccgo.pdf
 cd ../
 
 # ----- LLVM/LLGO -----
