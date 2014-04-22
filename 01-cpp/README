@@ -32,9 +32,9 @@ http://en.wikipedia.org/wiki/C_programming
 http://en.wikipedia.org/wiki/C%2B%2B
 http://gcc.gnu.org/
 http://clang.llvm.org/
-http://www.boost.org/
-http://www.codeblocks.org/
 
+http://www.boost.org/  -- Extra libraries for C++
+http://www.codeblocks.org/  -- C/C++ IDE
 http://invisible-island.net/bcpp/bcpp.html  -- BCPP tidies up C/C++ source files
 http://sourceforge.net/projects/ctocpp/  -- CTOCPP converts C to C++
 http://sourceforge.net/projects/uncrustify/  -- UNCRUSTIFY tidies up C/C++ source files
@@ -44,4 +44,9 @@ Books:
 
 ISBN-13: 9780321958327 -- THE C++ PROGRAMMING LANGUAGE (4th Edition)
 ISBN-13: 9780321623218 -- THE C++ STANDARD LIBRARY (2nd Edition)
+ISBN-13: 9780988927803 -- JUMPING INTO C++
+ISBN-13: 9780321958310 -- A TOUR OF C++
+ISBN-13: 9780321543721 -- PROGRAMMING: PRINCIPLES AND PRACTICE USING C++
+ISBN-13: 9780321776402 -- C++ PRIMER PLUS
+
 
