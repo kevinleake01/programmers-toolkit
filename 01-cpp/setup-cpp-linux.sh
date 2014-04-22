@@ -22,14 +22,14 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/gcc.pdf -O gcc-manual-4.8.2.pdf
-wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/cpp.pdf -O gcc-cpp-4.8.2.pdf
-wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/libstdc++-manual.pdf.gz
-wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/libstdc++-api.pdf.gz
-wget http://gcc.gnu.org/onlinedocs/gcc-4.8.2/docs-sources.tar.gz
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/gcc.pdf -O gcc-manual-4.9.0.pdf
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/cpp.pdf -O gcc-cpp-4.9.0.pdf
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/libstdc++-manual.pdf.gz
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/libstdc++-api.pdf.gz
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/docs-sources.tar.gz
 wget http://gcc.gnu.org/onlinedocs/gccint.pdf
 wget http://gcc.gnu.org/onlinedocs/cppinternals.pdf
-wget ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.8.2/gcc-4.8.2.tar.bz2
+wget ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.9.0/gcc-4.9.0.tar.bz2
 cd ../
 
 # --- LLVM/CLANG ---
