@@ -11,38 +11,24 @@
 # --- LINUX FROM SCRATCH ---
 mkdir 01-lfs
 cd 01-lfs
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5/LFS-BOOK-7.5-NOCHUNKS.html
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5/LFS-BOOK-7.5.pdf
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5/LFS-BOOK-7.5.tar.bz2
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5/wget-list -O LFS-7.5-wget-list.txt
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5-systemd/LFS-BOOK-7.5-systemd-NOCHUNKS.html
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5-systemd/LFS-BOOK-7.5-systemd.pdf
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5-systemd/LFS-BOOK-7.5-systemd.tar.bz2
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5-systemd/wget-list -O LFS-7.5-systemd-wget-list.txt
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5/lfs-bootscripts-20130821.tar.bz2
-wget http://www.linuxfromscratch.org/lfs/downloads/7.5-systemd/lfs-network-scripts-20140214.tar.bz2
-wget http://www.linuxfromscratch.org/blfs/downloads/7.5/blfs-book-7.5-html.tar.bz2
-wget http://www.linuxfromscratch.org/blfs/downloads/7.5/BLFS-BOOK-7.5-nochunks.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-2.1.0-XML.tar.xz
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-mips.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-ppc.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-ppc64.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-sparc.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-sparc64-64.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-sparc64.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-x86.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-x86_64-64.html
-wget http://cross-lfs.org/files/BOOK/2.1.0/CLFS-x86_64.html
-git clone git://git.cross-lfs.org/cross-lfs.git cross-lfs-git
-git clone git://git.cross-lfs.org/clfs-sysroot.git
-git clone git://git.cross-lfs.org/clfs-embedded.git
-wget http://cross-lfs.org/files/BOOK/CLFS-EMBEDDED-GIT-20131024-CHUNKS.tar.bz2
-wget http://cross-lfs.org/files/BOOK/CLFS-SYSROOT-SVN-0.0.1-20090726-CHUNKS.tar.bz2
-wget http://cross-lfs.org/files/BOOK/CLFS-TRUNK-GIT-20140314-CHUNKS.tar.bz2
-wget http://cross-lfs.org/files/bootscripts-cross-lfs-2.1-pre1.tar.xz
-wget http://cross-lfs.org/files/clfs-network-scripts-20140224.tar.xz
-wget http://cross-lfs.org/files/eglibc-2.18-r24829.tar.xz
-wget http://cross-lfs.org/files/eglibc-ports-2.15-r21467.tar.xz
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6/LFS-BOOK-7.6-NOCHUNKS.html
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6/LFS-BOOK.pdf
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6/LFS-BOOK-7.6.tar.bz2
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6/wget-list -O LFS-7.6-wget-list.txt
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6-systemd/LFS-BOOK-7.6-systemd-NOCHUNKS.html
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6-systemd/LFS-BOOK-7.6-systemd.pdf
+wget http://www.linuxfromscratch.org/lfs/downloads/7.5-systemd/LFS-BOOK-7.6-systemd.tar.bz2
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6-systemd/wget-list -O LFS-7.6-systemd-wget-list.txt
+wget http://www.linuxfromscratch.org/lfs/downloads/7.6/lfs-bootscripts-20140815.tar.bz2
+wget http://www.linuxfromscratch.org/blfs/downloads/7.6/blfs-book-7.6-html.tar.bz2
+wget http://www.linuxfromscratch.org/blfs/downloads/7.6/BLFS-BOOK-7.6-nochunks.html
+wget http://www.linuxfromscratch.org/blfs/downloads/7.6/blfs-bootscripts-20140919.tar.bz2
+git clone git://git.clfs.org/cross-lfs.git
+git clone git://git.clfs.org/clfs-sysroot.git
+git clone git://git.clfs.org/clfs-embedded.git
+git clone git://git.clfs.org/bootscripts-standard.git clfs-bootscripts-standard.git
+git clone git://git.clfs.org/bootscripts-embedded.git clfs-bootscripts-embedded.git
+git clone git://git.clfs.org/units.git clfs-systemd-units.git
 wget http://cblfs.cross-lfs.org/index.php/Main_Page -O CBLFS-index.html
 wget http://www.linuxfromscratch.org/alfs/downloads/jhalfs/stable/jhalfs-2.3.2.tar.bz2
 cd ../
@@ -82,7 +68,7 @@ cd ../
 # --- ABORIGINAL LINUX ---
 mkdir 03-aboriginal
 cd 03-aboriginal
-wget http://landley.net/aboriginal/downloads/aboriginal-1.2.6.tar.bz2
+wget http://landley.net/aboriginal/downloads/aboriginal-1.2.9.tar.bz2
 wget http://landley.net/aboriginal/downloads/presentation.pdf
 wget http://landley.net/aboriginal/presentation.html
 hg clone http://landley.net/hg/aboriginal/
@@ -91,7 +77,7 @@ cd ../
 # --- KAARPUX ---
 mkdir 04-kaarpux
 cd 04-kaarpux
-wget http://downloads.sourceforge.net/project/kaarpux/kaarpux/kaarpux-4.2.3.tar.gz
+wget http://downloads.sourceforge.net/project/kaarpux/kaarpux/kaarpux-4.7.2.tar.gz
 git clone git://git.code.sf.net/p/kaarpux/code kaarpux-git
 cd ../
 
