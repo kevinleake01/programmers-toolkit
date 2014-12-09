@@ -17,7 +17,7 @@ cd ../
 # --- CPAN ---
 mkdir 02-cpan
 cd 02-cpan
-wget http://www.cpan.org/src/5.0/perl-5.18.2.tar.gz
+wget http://www.cpan.org/src/5.0/perl-5.20.1.tar.gz
 git clone git://github.com/andk/cpanpm.git
 git clone git://github.com/jib/cpanplus-devel.git
 cd ../
