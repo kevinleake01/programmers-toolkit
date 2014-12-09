@@ -10,7 +10,7 @@
 # --- PHP.NET ---
 mkdir 01-php
 cd 01-php
-wget http://us1.php.net/get/php-5.5.11.tar.bz2
+wget http://us1.php.net/get/php-5.6.3.tar.xz
 wget http://uk3.php.net/get/php_manual_en.tar.gz
 cd ../
 
