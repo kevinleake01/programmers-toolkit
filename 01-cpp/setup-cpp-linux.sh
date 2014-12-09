@@ -22,37 +22,33 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/gcc.pdf -O gcc-manual-4.9.0.pdf
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/cpp.pdf -O gcc-cpp-4.9.0.pdf
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/libstdc++-manual.pdf.gz
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/libstdc++-api.pdf.gz
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/docs-sources.tar.gz
-wget http://gcc.gnu.org/onlinedocs/gccint.pdf
-wget http://gcc.gnu.org/onlinedocs/cppinternals.pdf
-wget ftp://gcc.gnu.org/pub/gcc/releases/gcc-4.9.0/gcc-4.9.0.tar.bz2
+svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_9_2_release gcc-4.9.2
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/docs-sources.tar.gz -O gcc-docs-sources-4.9.2.tar.gz
+svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-latest
 cd ../
 
 # --- LLVM/CLANG ---
 mkdir 03-llvm-clang
 cd 03-llvm-clang
-wget http://llvm.org/releases/3.4/llvm-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/clang-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/compiler-rt-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/dragonegg-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/libcxx-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/lldb-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/lld-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/polly-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/clang-tools-extra-3.4.src.tar.gz
-wget http://llvm.org/releases/3.4/test-suite-3.4.src.tar.gz
-svn checkout http://llvm.org/svn/llvm-project/llvm/trunk llvm
+svn co http://llvm.org/svn/llvm-project/llvm/tags/RELEASE_350/final llvm-3.5.0
+svn co http://llvm.org/svn/llvm-project/cfe/tags/RELEASE_350/final clang-3.5.0
+svn co http://llvm.org/svn/llvm-project/dragonegg/tags/RELEASE_350/final dragonegg-3.5.0
+svn co http://llvm.org/svn/llvm-project/compiler-rt/tags/RELEASE_350/final compiler-rt-3.5.0
+svn co http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_350/final libcxx-3.5.0
+svn co http://llvm.org/svn/llvm-project/lldb/tags/RELEASE_350/final lldb-3.5.0
+svn co http://llvm.org/svn/llvm-project/lld/tags/RELEASE_350/final lld-3.5.0
+svn co http://llvm.org/svn/llvm-project/polly/tags/RELEASE_350/final polly-3.5.0
+svn co http://llvm.org/svn/llvm-project/clang-tools-extra/tags/RELEASE_350/final clang-tools-extra-3.5.0
+svn co http://llvm.org/svn/llvm-project/test-suite/tags/RELEASE_350/final test-suite-3.5.0
+svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm-latest
+svn co http://llvm.org/svn/llvm-project/cfe/trunk clang-latest
 cd ../
 
 # --- BOOST ---
 mkdir 04-boost
 cd 04-boost
 wget http://www.boost.org/LICENSE_1_0.txt
-wget http://downloads.sourceforge.net/boost/boost/1.55.0/boost_1_55_0.tar.bz2
+wget http://downloads.sourceforge.net/boost/boost/1.57.0/boost_1_57_0.tar.bz2
 wget http://downloads.sourceforge.net/boost/boost-build-2.0-m12.tar.bz2
 wget http://www.boost.org/boost-build2/doc/userman.pdf -O boost-build2-userman.pdf
 cd ../
