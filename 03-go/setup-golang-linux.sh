@@ -23,21 +23,23 @@ hg clone https://code.google.com/p/go.blog/
 hg clone https://code.google.com/p/go.exp/
 hg clone https://code.google.com/p/go.tools/
 hg clone https://code.google.com/p/go.benchmarks/
-wget http://go.googlecode.com/files/go1.2.1.src.tar.gz
+wget https://storage.googleapis.com/golang/go1.3.3.src.tar.gz
 cd ../
 
 # ----- GCCGO -----
 mkdir 02-gccgo
 cd 02-gccgo
+svn co svn://gcc.gnu.org/svn/gcc/branches/gccgo
 wget http://golang.org/doc/install/gccgo -O setup-gccgo.html
 wget http://golang.org/doc/gccgo_contribute.html
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.0/gccgo.pdf
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/gccgo-4.9.2.pdf
 cd ../
 
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-git clone https://github.com/go-llvm/llvm.git
-git clone https://github.com/go-llvm/llgo.git
+svn co http://llvm.org/svn/llvm-project/llgo/trunk llgo-latest
+git clone https://github.com/go-llvm/llvm.git go-llvm
+git clone https://github.com/go-llvm/llgo.git go-llgo
 cd ../
 
