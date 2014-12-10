@@ -15,8 +15,7 @@ git clone git://github.com/D-Programming-Language/druntime.git
 git clone git://github.com/D-Programming-Language/dlang.org.git
 git clone git://github.com/D-Programming-Language/installer.git
 git clone git://github.com/D-Programming-Language/tools.git
-wget http://ftp.digitalmars.com/dmd.1.076.zip
-wget http://ftp.digitalmars.com/dmd.2.066.1.zip
+wget http://downloads.dlang.org/releases/2014/dmd.2.066.1.zip
 cd ../
 
 # --- GCC (GDC) ---
