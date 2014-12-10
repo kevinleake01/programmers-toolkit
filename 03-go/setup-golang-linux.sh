@@ -29,16 +29,16 @@ cd ../
 # ----- GCCGO -----
 mkdir 02-gccgo
 cd 02-gccgo
-svn co svn://gcc.gnu.org/svn/gcc/branches/gccgo
+svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_9_2_release/libgo gccgo-4.9.2
+wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/gccgo-4.9.2.pdf
 wget http://golang.org/doc/install/gccgo -O setup-gccgo.html
 wget http://golang.org/doc/gccgo_contribute.html
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/gccgo-4.9.2.pdf
 cd ../
 
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-svn co http://llvm.org/svn/llvm-project/llgo/trunk llgo-latest
+svn co svn://llvm.org/svn/llvm-project/llgo/trunk llgo-latest
 git clone https://github.com/go-llvm/llvm.git go-llvm
 git clone https://github.com/go-llvm/llgo.git go-llgo
 cd ../
