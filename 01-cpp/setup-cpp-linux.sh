@@ -24,7 +24,6 @@ mkdir 02-gcc
 cd 02-gcc
 svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_9_2_release gcc-4.9.2
 wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/docs-sources.tar.gz -O gcc-docs-sources-4.9.2.tar.gz
-svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-latest
 cd ../
 
 # --- LLVM/CLANG ---
@@ -40,8 +39,6 @@ svn co http://llvm.org/svn/llvm-project/lld/tags/RELEASE_350/final lld-3.5.0
 svn co http://llvm.org/svn/llvm-project/polly/tags/RELEASE_350/final polly-3.5.0
 svn co http://llvm.org/svn/llvm-project/clang-tools-extra/tags/RELEASE_350/final clang-tools-extra-3.5.0
 svn co http://llvm.org/svn/llvm-project/test-suite/tags/RELEASE_350/final test-suite-3.5.0
-svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm-latest
-svn co http://llvm.org/svn/llvm-project/cfe/trunk clang-latest
 cd ../
 
 # --- BOOST ---
