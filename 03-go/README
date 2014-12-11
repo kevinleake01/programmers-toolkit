@@ -10,7 +10,7 @@ most advanced of the computer programming languages of the 21st Century.
 
 For those using Linux, there is a script named "setup-go-linux.sh" which will
 download various Go programming language related documentation to your computer.
-It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+It will require Subversion (SVN), Git, and Hg (Mercurial) to be installed.
 
 
 Links:
