@@ -23,7 +23,7 @@ hg clone https://code.google.com/p/go.blog/
 hg clone https://code.google.com/p/go.exp/
 hg clone https://code.google.com/p/go.tools/
 hg clone https://code.google.com/p/go.benchmarks/
-wget https://storage.googleapis.com/golang/go1.3.3.src.tar.gz
+wget https://storage.googleapis.com/golang/go1.4.src.tar.gz
 cd ../
 
 # ----- GCCGO -----
@@ -38,7 +38,7 @@ cd ../
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-svn co svn://llvm.org/svn/llvm-project/llgo/trunk llgo-latest
+svn co http://llvm.org/svn/llvm-project/llgo/trunk llgo-latest
 git clone https://github.com/go-llvm/llvm.git go-llvm
 git clone https://github.com/go-llvm/llgo.git go-llgo
 cd ../
