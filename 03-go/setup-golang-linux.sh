@@ -9,30 +9,32 @@
 # ----- GOLANG.ORG -----
 mkdir 01-golang
 cd 01-golang
-hg clone https://code.google.com/p/go/
-hg clone https://code.google.com/p/go.wiki/
-hg clone https://code.google.com/p/go.text/
-hg clone https://code.google.com/p/go.example/
-hg clone https://code.google.com/p/go.empty/
-hg clone https://code.google.com/p/go.crypto/
-hg clone https://code.google.com/p/go.net/
-hg clone https://code.google.com/p/go.codereview/
-hg clone https://code.google.com/p/go.image/
-hg clone https://code.google.com/p/go.talks/
-hg clone https://code.google.com/p/go.blog/
-hg clone https://code.google.com/p/go.exp/
-hg clone https://code.google.com/p/go.tools/
-hg clone https://code.google.com/p/go.benchmarks/
-wget https://storage.googleapis.com/golang/go1.4.src.tar.gz
+git clone git://github.com/golang/go.git
+git clone git://github.com/golang/tools.git
+git clone git://github.com/golang/mobile.git
+git clone git://github.com/golang/benchmarks.git
+git clone git://github.com/golang/talks.git
+git clone git://github.com/golang/crypto.git
+git clone git://github.com/golang/net.git
+git clone git://github.com/golang/blog.git
+git clone git://github.com/golang/text.git
+git clone git://github.com/golang/sys.git
+git clone git://github.com/golang/exp.git
+git clone git://github.com/golang/image.git
+git clone git://github.com/golang/geo.git
+git clone git://github.com/golang/gddo.git
+git clone git://github.com/golang/lint.git
+git clone git://github.com/golang/example.git
+git clone git://github.com/golang/glog.git
 cd ../
 
 # ----- GCCGO -----
 mkdir 02-gccgo
 cd 02-gccgo
+svn co svn://gcc.gnu.org/svn/gcc/branches/gccgo/libgo gccgo-libgo
 svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_9_2_release/libgo gccgo-4.9.2
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/gccgo-4.9.2.pdf
-wget http://golang.org/doc/install/gccgo -O setup-gccgo.html
-wget http://golang.org/doc/gccgo_contribute.html
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/gccgo.pdf -O gccgo-docs-4.9.2.pdf
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/gccgo-html.tar.gz -O gccgo-docs-4.9.2.html.tar.gz
 cd ../
 
 # ----- LLVM/LLGO -----
