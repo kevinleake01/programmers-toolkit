@@ -23,7 +23,13 @@ cd ../
 mkdir 02-gcc
 cd 02-gcc
 svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_9_2_release gcc-4.9.2
-wget http://gcc.gnu.org/onlinedocs/gcc-4.9.2/docs-sources.tar.gz -O gcc-docs-sources-4.9.2.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/gcc-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/cpp-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libstdc++-manual-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libstdc++-api-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libgomp-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libquadmath-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/docs-sources.tar.gz
 cd ../
 
 # --- LLVM/CLANG ---
