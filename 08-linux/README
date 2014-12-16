@@ -10,7 +10,7 @@ it is like to build a complete Linux OS completely from the ground up.
 
 For those already using Linux, there is a script named "setup-linux-source.sh"
 which will download various related documentation to your computer. It will
-require Subversion (SVN), Git and Hg (Mercurial) to be installed.
+require Subversion (SVN), Git, and Hg (Mercurial) to be installed.
 
 
 Links:
@@ -21,6 +21,7 @@ http://cblfs.clfs.org/index.php/Main_Page
 http://www.t2-project.org/
 http://landley.net/aboriginal/
 http://kaarpux.kaarposoft.dk/
+http://www.funtoo.org/
 
 
 Books:
