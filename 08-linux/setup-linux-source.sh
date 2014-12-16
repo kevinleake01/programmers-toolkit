@@ -33,8 +33,8 @@ svn co svn://wiki.linuxfromscratch.org/livecd/trunk live-cd
 cd ../
 
 # --- T2-SDE ---
-mkdir 02-t2sde
-cd 02-t2sde
+mkdir 02-T2-SDE
+cd 02-T2-SDE
 wget http://www.t2-project.org/handbook/html/t2-book.html
 wget http://www.t2-project.org/handbook/ps+pdf/t2-handbook.pdf
 wget http://www.t2-project.org/handbook/ps+pdf/t2-handbook.ps
@@ -58,13 +58,43 @@ wget http://landley.net/aboriginal/downloads/aboriginal-1.2.9.tar.bz2
 wget http://landley.net/aboriginal/downloads/presentation.pdf
 wget http://landley.net/aboriginal/presentation.html
 hg clone http://landley.net/hg/aboriginal/
+wget http://landley.net/aboriginal/README
 cd ../
 
 # --- KAARPUX ---
 mkdir 04-kaarpux
 cd 04-kaarpux
-wget http://downloads.sourceforge.net/project/kaarpux/kaarpux/kaarpux-4.7.2.tar.gz
-git clone git://git.code.sf.net/p/kaarpux/code kaarpux-git
+wget http://sourceforge.net/projects/kaarpux/files/kaarpux/kaarpux-4.8.0.tar.gz
+git clone git://git.code.sf.net/p/kaarpux/code kaarpux
+cd ../
+
+# --- FUNTOO ---
+mkdir 05-funtoo
+cd 05-funtoo
+git clone https://github.com/funtoo/ports-2012.git
+git clone https://github.com/funtoo/funtoo-gnome-overlay.git
+git clone https://github.com/funtoo/funtoo-overlay.git
+git clone https://github.com/funtoo/funtoo-toolchain-overlay.git
+git clone https://github.com/funtoo/keychain.git
+git clone https://github.com/funtoo/openrc.git
+git clone https://github.com/funtoo/metro.git
+git clone https://github.com/funtoo/portage-funtoo.git
+git clone https://github.com/funtoo/funtoo-mysql.git
+git clone https://github.com/funtoo/funtoo-media.git
+git clone https://github.com/funtoo/experimental-2014.git
+git clone https://github.com/funtoo/funtoo-ldap-overlay.git
+git clone https://github.com/funtoo/corenetwork.git
+git clone https://github.com/funtoo/boot-update.git
+git clone https://github.com/funtoo/genkernel.git
+git clone https://github.com/funtoo/kernel-seeds.git
+git clone https://github.com/funtoo/skeleton-overlay.git
+git clone https://github.com/funtoo/baselayout.git
+git clone https://github.com/funtoo/experimental-mini.git
+git clone https://github.com/funtoo/vzctl.git
+git clone https://github.com/funtoo/funtoo-syntax.git
+git clone https://github.com/funtoo/lxc.git
+git clone https://github.com/funtoo/funtoo-netscripts.git
+git clone https://github.com/funtoo/realdev.git
 cd ../
 
 
