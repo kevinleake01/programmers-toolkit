@@ -10,15 +10,15 @@
 # --- RUBY-LANG AND RUBYGEMS ---
 mkdir 01-ruby
 cd 01-ruby
-wget http://ftp.ruby-lang.org/pub/ruby/stable-snapshot.tar.xz
+wget http://ftp.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.xz
 git clone http://github.com/rubygems/rubygems.git
 cd ../
 
 # --- RUBY-DOCS ---
 mkdir 02-rubydoc
 cd 02-rubydoc
-wget http://ruby-doc.org/downloads/ruby_2_1_5_core_rdocs.tgz
-wget http://ruby-doc.org/downloads/ruby_2_1_5_stdlib_rdocs.tgz
+wget http://ruby-doc.org/downloads/ruby_2_2_0_core_rdocs.tgz
+wget http://ruby-doc.org/downloads/ruby_2_2_0_stdlib_rdocs.tgz
 git clone http://github.com/rdoc/rdoc.git
 cd ../
 
