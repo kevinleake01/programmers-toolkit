@@ -54,7 +54,7 @@ cd ../
 # --- ABORIGINAL LINUX ---
 mkdir 03-aboriginal
 cd 03-aboriginal
-wget http://landley.net/aboriginal/downloads/aboriginal-1.2.9.tar.bz2
+wget http://landley.net/aboriginal/downloads/aboriginal-1.3.0.tar.bz2
 wget http://landley.net/aboriginal/downloads/presentation.pdf
 wget http://landley.net/aboriginal/presentation.html
 hg clone http://landley.net/hg/aboriginal/
