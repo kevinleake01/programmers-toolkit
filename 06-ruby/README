@@ -5,6 +5,9 @@
 *********************************
 
 
+The Ruby Programming Language is one of the most popular scripting languages. It
+has the backing of the international standard of ISO/IEC 30170:2012.
+
 For those using Linux, there is a script named "setup-ruby-linux.sh" which will
 download various Ruby programming language related documentation to your computer.
 It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
@@ -13,8 +16,10 @@ It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
 Links:
 
 https://www.ruby-lang.org/en/
+http://rubygems.org/
 http://www.ruby-doc.org/
 http://www.rdoc.info/
+http://www.mruby.org/
 https://www.ruby-toolbox.com/
 http://en.wikipedia.org/wiki/Ruby_%28programming_language%29
 http://rubyonrails.org/
@@ -25,4 +30,5 @@ Books:
 ISBN-13: 9780596516178 -- THE RUBY PROGRAMMING LANGUAGE
 ISBN-13: 9781937785499 -- PROGRAMMING RUBY 1.9 & 2.0
 ISBN-13: 9780596523695 -- RUBY COOKBOOK
+ISBN-13: 9781941222126 -- METAPROGRAMMING RUBY (2nd Edition)
 
