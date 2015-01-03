@@ -16,7 +16,6 @@ git clone http://github.com/ruby/www.ruby-lang.org.git
 git clone http://github.com/ruby/bugs.ruby-lang.org.git
 git clone http://github.com/ruby/docs.ruby-lang.org.git
 git clone http://github.com/ruby/rake.git
-git clone http://github.com/ruby/rake-jekyll.git
 git clone http://github.com/ruby/rurema-search.git
 git clone http://github.com/ruby/heroku-buildpack-www-ruby-lang.git
 git clone http://github.com/ruby/heroku-buildpack-bugs-ruby-lang.git
@@ -78,16 +77,16 @@ git clone http://github.com/rdoc/rdoc_chm.git
 cd ../
 
 # --- MRUBY ---
-mkdir 03-mruby
-cd 03-mruby
+mkdir 04-mruby
+cd 04-mruby
 git clone http://github.com/mruby/mruby.git
 git clone http://github.com/mruby/mgem-list.git
 git clone http://github.com/mruby/mruby.github.io.git
 cd ../
 
 # --- OTHER ---
-mkdir 03-other
-cd 03-other
+mkdir 05-other
+cd 05-other
 wget http://webstore.iec.ch/preview/info_isoiec30170%7Bed1.0%7Den.pdf
 wget http://upload.wikimedia.org/wikipedia/commons/e/ee/Ruby_Programming.pdf
 cd ../
