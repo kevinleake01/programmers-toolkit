@@ -10,9 +10,9 @@
 # --- PERL.ORG ---
 mkdir 01-perl
 cd 01-perl
-git clone http://perl5.git.perl.org/perl.git
-git clone http://perl5.git.perl.org/metaconfig.git
-git clone http://perl5.git.perl.org/perlbrowse.git
+git clone git://perl5.git.perl.org/perl.git
+git clone git://perl5.git.perl.org/metaconfig.git
+git clone git://perl5.git.perl.org/perlbrowse.git
 wget http://perldoc.perl.org/perldoc.tar.gz
 cd ../
 
