@@ -35,16 +35,16 @@ cd ../
 # --- LLVM/CLANG ---
 mkdir 03-llvm-clang
 cd 03-llvm-clang
-svn co http://llvm.org/svn/llvm-project/llvm/tags/RELEASE_350/final llvm-3.5.0
-svn co http://llvm.org/svn/llvm-project/cfe/tags/RELEASE_350/final clang-3.5.0
-svn co http://llvm.org/svn/llvm-project/dragonegg/tags/RELEASE_350/final dragonegg-3.5.0
-svn co http://llvm.org/svn/llvm-project/compiler-rt/tags/RELEASE_350/final compiler-rt-3.5.0
-svn co http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_350/final libcxx-3.5.0
-svn co http://llvm.org/svn/llvm-project/lldb/tags/RELEASE_350/final lldb-3.5.0
-svn co http://llvm.org/svn/llvm-project/lld/tags/RELEASE_350/final lld-3.5.0
-svn co http://llvm.org/svn/llvm-project/polly/tags/RELEASE_350/final polly-3.5.0
-svn co http://llvm.org/svn/llvm-project/clang-tools-extra/tags/RELEASE_350/final clang-tools-extra-3.5.0
-svn co http://llvm.org/svn/llvm-project/test-suite/tags/RELEASE_350/final test-suite-3.5.0
+svn co http://llvm.org/svn/llvm-project/llvm/tags/RELEASE_360/final llvm-3.6.0
+svn co http://llvm.org/svn/llvm-project/cfe/tags/RELEASE_360/final clang-3.6.0
+svn co http://llvm.org/svn/llvm-project/dragonegg/tags/RELEASE_360/final dragonegg-3.6.0
+svn co http://llvm.org/svn/llvm-project/compiler-rt/tags/RELEASE_360/final compiler-rt-3.6.0
+svn co http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_360/final libcxx-3.6.0
+svn co http://llvm.org/svn/llvm-project/lldb/tags/RELEASE_360/final lldb-3.6.0
+svn co http://llvm.org/svn/llvm-project/lld/tags/RELEASE_360/final lld-3.6.0
+svn co http://llvm.org/svn/llvm-project/polly/tags/RELEASE_360/final polly-3.6.0
+svn co http://llvm.org/svn/llvm-project/clang-tools-extra/tags/RELEASE_360/final clang-tools-extra-3.6.0
+svn co http://llvm.org/svn/llvm-project/test-suite/tags/RELEASE_360/final test-suite-3.6.0
 cd ../
 
 # --- BOOST ---

@@ -11,10 +11,10 @@
 # --- LINUX FROM SCRATCH ---
 mkdir 01-lfs
 cd 01-lfs
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.6 lfs-7.6
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.6-systemd lfs-systemd-7.6
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.7 lfs-7.7
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.7-systemd lfs-systemd-7.7
 svn co svn://wiki.linuxfromscratch.org/lfs/trunk lfs-latest
-svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.6 blfs-7.6
+svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.7 blfs-7.7
 svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.6-systemd blfs-systemd-7.6
 svn co svn://wiki.linuxfromscratch.org/blfs/trunk blfs-latest
 git clone git://git.clfs.org/cross-lfs.git clfs
@@ -30,6 +30,7 @@ svn co svn://wiki.linuxfromscratch.org/hlfs/tags/release-0.6 hlfs-0.6
 svn co svn://wiki.linuxfromscratch.org/hlfs/trunk hlfs-latest
 svn co svn://wiki.linuxfromscratch.org/hints/trunk lfs-hints
 svn co svn://wiki.linuxfromscratch.org/livecd/trunk live-cd
+svn co svn://wiki.linuxfromscratch.org/patches/trunk patches
 cd ../
 
 # --- T2-SDE ---
@@ -54,7 +55,7 @@ cd ../
 # --- ABORIGINAL LINUX ---
 mkdir 03-aboriginal
 cd 03-aboriginal
-wget http://landley.net/aboriginal/downloads/aboriginal-1.3.0.tar.bz2
+wget http://landley.net/aboriginal/downloads/aboriginal-1.4.0.tar.gz
 wget http://landley.net/aboriginal/downloads/presentation.pdf
 wget http://landley.net/aboriginal/presentation.html
 hg clone http://landley.net/hg/aboriginal/
@@ -64,7 +65,7 @@ cd ../
 # --- KAARPUX ---
 mkdir 04-kaarpux
 cd 04-kaarpux
-wget http://sourceforge.net/projects/kaarpux/files/kaarpux/kaarpux-4.8.0.tar.gz
+wget http://sourceforge.net/projects/kaarpux/files/kaarpux/kaarpux-4.8.6.tar.gz
 git clone git://git.code.sf.net/p/kaarpux/code kaarpux
 cd ../
 
