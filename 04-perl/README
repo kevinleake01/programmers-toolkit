@@ -4,7 +4,6 @@
 *****
 ******************************
 
-
 For those using Linux, there is a script named "setup-perl-linux.sh" which will
 download various Perl programming language related documentation to your computer.
 It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
@@ -19,7 +18,9 @@ http://metacpan.org/
 http://www.pm.org/
 http://www.perlfoundation.org/
 http://www.perlmonks.org/
+http://www.dmoz.org/Computers/Programming/Languages/Perl
 http://en.wikipedia.org/wiki/Perl_programming
+http://rosettacode.org/wiki/Perl
 
 
 Books:
