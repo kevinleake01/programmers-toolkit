@@ -34,7 +34,6 @@ git clone https://github.com/rust-lang/rust-installer.git
 git clone https://github.com/rust-lang/rust-wiki-backup.git
 git clone https://github.com/rust-lang/rust-playpen.git
 git clone https://github.com/rust-lang/hexfloat.git
-git clone https://github.com/rust-lang/gemalloc.git
 git clone https://github.com/rust-lang/rust-guidelines.git
 git clone https://github.com/rust-lang/fourcc.git
 git clone https://github.com/rust-lang/rust-www.git
