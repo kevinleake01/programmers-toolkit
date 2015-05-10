@@ -22,14 +22,14 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_4_9_2_release gcc-4.9.2
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/gcc-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/cpp-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libstdc++-manual-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libstdc++-api-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libgomp-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/libquadmath-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-4.9.2/docs-sources.tar.gz
+svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_5_1_0_release gcc-5.1.0
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/gcc-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libstdc++-manual-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libstdc++-api-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libgomp-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libquadmath-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/docs-sources.tar.gz
 cd ../
 
 # --- LLVM/CLANG ---
@@ -51,7 +51,7 @@ cd ../
 mkdir 04-boost
 cd 04-boost
 wget http://www.boost.org/LICENSE_1_0.txt
-wget http://downloads.sourceforge.net/boost/boost/1.57.0/boost_1_57_0.tar.bz2
+wget http://downloads.sourceforge.net/boost/boost/1.58.0/boost_1_58_0.tar.bz2
 wget http://downloads.sourceforge.net/boost/boost-build-2.0-m12.tar.bz2
 wget http://www.boost.org/boost-build2/doc/userman.pdf -O boost-build2-userman.pdf
 cd ../
