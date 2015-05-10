@@ -15,8 +15,10 @@ git clone git://github.com/D-Programming-Language/druntime.git
 git clone git://github.com/D-Programming-Language/dlang.org.git
 git clone git://github.com/D-Programming-Language/installer.git
 git clone git://github.com/D-Programming-Language/tools.git
-wget http://downloads.dlang.org/releases/2015/dmd.2.067.0.zip
-wget https://github.com/rejectedsoftware/dub/archive/v0.9.22.tar.gz
+git clone git://github.com/D-Programming-Language/dub.git
+git clone git://github.com/D-Programming-Language/dub-registry.git
+git clone git://github.com/D-Programming-Language/dconf.org.git
+wget http://downloads.dlang.org/releases/2015/dmd.2.067.1.zip
 cd ../
 
 # --- GCC (GDC) ---
