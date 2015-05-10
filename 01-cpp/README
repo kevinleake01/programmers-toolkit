@@ -6,7 +6,7 @@
 
 The C and C++ Programming Languages are at the heart of all computer programming
 languages in general. Most compiler "backends" have been written in C/C++, and
-they include Perl, Python, Ruby, D, and Go.
+they include Perl, Python, Ruby, and D.
 
 For those using Linux, there is a script named "setup-cpp-linux.sh" which will
 download various C, and C++ programming language related documentation to your
