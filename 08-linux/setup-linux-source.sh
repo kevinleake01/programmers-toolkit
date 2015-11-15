@@ -26,6 +26,7 @@ git clone git://git.clfs.org/units.git clfs-systemd-units
 wget http://cblfs.clfs.org/index.php/Main_Page -O CBLFS-index.html
 svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/tags/2.3.2 jhalfs-2.3.2
 svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/trunk jhalfs-latest
+wget lfscript.org/latest.tar.bz2 -O lfscript-latest.tar.bz2
 svn co svn://wiki.linuxfromscratch.org/hlfs/tags/release-0.6 hlfs-0.6
 svn co svn://wiki.linuxfromscratch.org/hlfs/trunk hlfs-latest
 svn co svn://wiki.linuxfromscratch.org/hints/trunk lfs-hints
