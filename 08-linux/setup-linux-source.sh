@@ -11,7 +11,12 @@
 # --- LINUX FROM SCRATCH ---
 mkdir 01-lfs
 cd 01-lfs
-wget -m http://linuxfromscratch.org/
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8 lfs-7.8
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8-systemd lfs-systemd-7.8
+svn co svn://wiki.linuxfromscratch.org/lfs/trunk lfs-latest
+svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8 blfs-7.8
+svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8-systemd blfs-systemd-7.8
+svn co svn://wiki.linuxfromscratch.org/blfs/trunk blfs-latest
 git clone git://git.clfs.org/cross-lfs.git
 cd cross-lfs
 git checkout clfs-3.0.0-sysvinit
@@ -24,6 +29,7 @@ git clone git://git.clfs.org/bootscripts-embedded.git clfs-bootscripts-embedded
 git clone git://git.clfs.org/units.git clfs-systemd-units
 wget http://cblfs.clfs.org/index.php/Main_Page -O CBLFS-index.html
 wget http://www.lfscript.org/latest.tar.bz2 -O lfscript-latest.tar.bz2
+
 cd ../
 
 # --- T2-SDE ---
