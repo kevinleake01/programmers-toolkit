@@ -11,27 +11,19 @@
 # --- LINUX FROM SCRATCH ---
 mkdir 01-lfs
 cd 01-lfs
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8 lfs-7.8
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8-systemd lfs-systemd-7.8
-svn co svn://wiki.linuxfromscratch.org/lfs/trunk lfs-latest
-svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8 blfs-7.8
-svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8-systemd blfs-systemd-7.8
-svn co svn://wiki.linuxfromscratch.org/blfs/trunk blfs-latest
-git clone git://git.clfs.org/cross-lfs.git clfs
+wget -m http://linuxfromscratch.org/
+git clone git://git.clfs.org/cross-lfs.git
+cd cross-lfs
+git checkout clfs-3.0.0-sysvinit
+git checkout clfs-3.0.0-systemd
+cd ../
 git clone git://git.clfs.org/clfs-sysroot.git
 git clone git://git.clfs.org/clfs-embedded.git
 git clone git://git.clfs.org/bootscripts-standard.git clfs-bootscripts-standard
 git clone git://git.clfs.org/bootscripts-embedded.git clfs-bootscripts-embedded
 git clone git://git.clfs.org/units.git clfs-systemd-units
 wget http://cblfs.clfs.org/index.php/Main_Page -O CBLFS-index.html
-svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/tags/2.3.2 jhalfs-2.3.2
-svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/trunk jhalfs-latest
 wget http://www.lfscript.org/latest.tar.bz2 -O lfscript-latest.tar.bz2
-svn co svn://wiki.linuxfromscratch.org/hlfs/tags/release-0.6 hlfs-0.6
-svn co svn://wiki.linuxfromscratch.org/hlfs/trunk hlfs-latest
-svn co svn://wiki.linuxfromscratch.org/hints/trunk lfs-hints
-svn co svn://wiki.linuxfromscratch.org/livecd/trunk live-cd
-svn co svn://wiki.linuxfromscratch.org/patches/trunk patches
 cd ../
 
 # --- T2-SDE ---
@@ -69,34 +61,4 @@ cd 04-kaarpux
 wget http://sourceforge.net/projects/kaarpux/files/kaarpux/kaarpux-4.10.1.tar.gz
 git clone git://git.code.sf.net/p/kaarpux/code kaarpux
 cd ../
-
-# --- FUNTOO ---
-mkdir 05-funtoo
-cd 05-funtoo
-git clone https://github.com/funtoo/ports-2012.git
-git clone https://github.com/funtoo/funtoo-gnome-overlay.git
-git clone https://github.com/funtoo/funtoo-overlay.git
-git clone https://github.com/funtoo/funtoo-toolchain-overlay.git
-git clone https://github.com/funtoo/keychain.git
-git clone https://github.com/funtoo/openrc.git
-git clone https://github.com/funtoo/metro.git
-git clone https://github.com/funtoo/portage-funtoo.git
-git clone https://github.com/funtoo/funtoo-mysql.git
-git clone https://github.com/funtoo/funtoo-media.git
-git clone https://github.com/funtoo/experimental-2014.git
-git clone https://github.com/funtoo/funtoo-ldap-overlay.git
-git clone https://github.com/funtoo/corenetwork.git
-git clone https://github.com/funtoo/boot-update.git
-git clone https://github.com/funtoo/genkernel.git
-git clone https://github.com/funtoo/kernel-seeds.git
-git clone https://github.com/funtoo/skeleton-overlay.git
-git clone https://github.com/funtoo/baselayout.git
-git clone https://github.com/funtoo/experimental-mini.git
-git clone https://github.com/funtoo/vzctl.git
-git clone https://github.com/funtoo/funtoo-syntax.git
-git clone https://github.com/funtoo/lxc.git
-git clone https://github.com/funtoo/funtoo-netscripts.git
-git clone https://github.com/funtoo/realdev.git
-cd ../
-
 
