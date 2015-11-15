@@ -17,9 +17,12 @@ svn co svn://wiki.linuxfromscratch.org/lfs/trunk lfs-latest
 svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8 blfs-7.8
 svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.6-systemd blfs-7.6-systemd
 svn co svn://wiki.linuxfromscratch.org/blfs/trunk blfs-latest
-git clone git://git.clfs.org/cross-lfs.git
-cd cross-lfs
+git clone git://git.clfs.org/cross-lfs.git clfs
+cd clfs
 git checkout clfs-3.0.0-sysvinit
+cd ../
+git clone git://git.clfs.org/cross-lfs.git clfs-systemd
+cd clfs-systemd
 git checkout clfs-3.0.0-systemd
 cd ../
 git clone git://git.clfs.org/clfs-sysroot.git
