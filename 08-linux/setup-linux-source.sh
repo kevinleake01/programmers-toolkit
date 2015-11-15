@@ -12,10 +12,10 @@
 mkdir 01-lfs
 cd 01-lfs
 svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8 lfs-7.8
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8-systemd lfs-systemd-7.8
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.8-systemd lfs-7.8-systemd
 svn co svn://wiki.linuxfromscratch.org/lfs/trunk lfs-latest
 svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8 blfs-7.8
-svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.8-systemd blfs-systemd-7.8
+svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.6-systemd blfs-7.6-systemd
 svn co svn://wiki.linuxfromscratch.org/blfs/trunk blfs-latest
 git clone git://git.clfs.org/cross-lfs.git
 cd cross-lfs
@@ -29,7 +29,14 @@ git clone git://git.clfs.org/bootscripts-embedded.git clfs-bootscripts-embedded
 git clone git://git.clfs.org/units.git clfs-systemd-units
 wget http://cblfs.clfs.org/index.php/Main_Page -O CBLFS-index.html
 wget http://www.lfscript.org/latest.tar.bz2 -O lfscript-latest.tar.bz2
-
+svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/tags/2.3.2 jhalfs-2.3.2
+svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/trunk jhalfs-latest
+svn co svn://wiki.linuxfromscratch.org/alfs/jhalfs/branches/ablfs/ jhalfs-ablfs
+svn co svn://wiki.linuxfromscratch.org/hlfs/tags/release-0.6 hlfs-0.6
+svn co svn://wiki.linuxfromscratch.org/hlfs/trunk hlfs-latest
+svn co svn://wiki.linuxfromscratch.org/hints/trunk lfs-hints
+svn co svn://wiki.linuxfromscratch.org/livecd/trunk live-cd
+svn co svn://wiki.linuxfromscratch.org/patches/trunk patches
 cd ../
 
 # --- T2-SDE ---
