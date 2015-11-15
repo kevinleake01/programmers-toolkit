@@ -18,7 +18,7 @@ git clone git://github.com/D-Programming-Language/tools.git
 git clone git://github.com/D-Programming-Language/dub.git
 git clone git://github.com/D-Programming-Language/dub-registry.git
 git clone git://github.com/D-Programming-Language/dconf.org.git
-wget http://downloads.dlang.org/releases/2015/dmd.2.067.1.zip
+wget http://downloads.dlang.org/releases/2015/dmd.2.069.1.zip
 cd ../
 
 # --- GCC (GDC) ---
