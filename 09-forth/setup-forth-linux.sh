@@ -23,7 +23,7 @@ cd ../
 # --- 4TH ---
 mkdir 03-4th
 cd 03-4th
-wget http://sourceforge.net/projects/forth-4th/files/4th-3.62.2/4th-3.62.2-unix.tar.gz
+wget http://sourceforge.net/projects/forth-4th/files/4th-3.62.3/4th-3.62.3-unix.tar.gz
 wget http://thebeez.home.xs4all.nl/4tH/4tHmanual.tar.gz
 wget http://thebeez.home.xs4all.nl/4tH/4tHmanual.pdf
 wget http://thebeez.home.xs4all.nl/4tH/4thgui.zip
