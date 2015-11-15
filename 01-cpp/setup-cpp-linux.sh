@@ -22,36 +22,36 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_5_1_0_release gcc-5.1.0
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/gcc-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libstdc++-manual-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libstdc++-api-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libgomp-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/libquadmath-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/gcc-5.1.0/docs-sources.tar.gz
+svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_5_2_0_release gcc-5.2.0
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/gcc-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/cpp-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/libstdc++-manual-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/libstdc++-api-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/libgomp-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/libquadmath-html.tar.gz
+wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/docs-sources.tar.gz
 cd ../
 
 # --- LLVM/CLANG ---
 mkdir 03-llvm-clang
 cd 03-llvm-clang
-svn co http://llvm.org/svn/llvm-project/llvm/tags/RELEASE_360/final llvm-3.6.0
-svn co http://llvm.org/svn/llvm-project/cfe/tags/RELEASE_360/final clang-3.6.0
-svn co http://llvm.org/svn/llvm-project/dragonegg/tags/RELEASE_360/final dragonegg-3.6.0
-svn co http://llvm.org/svn/llvm-project/compiler-rt/tags/RELEASE_360/final compiler-rt-3.6.0
-svn co http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_360/final libcxx-3.6.0
-svn co http://llvm.org/svn/llvm-project/lldb/tags/RELEASE_360/final lldb-3.6.0
-svn co http://llvm.org/svn/llvm-project/lld/tags/RELEASE_360/final lld-3.6.0
-svn co http://llvm.org/svn/llvm-project/polly/tags/RELEASE_360/final polly-3.6.0
-svn co http://llvm.org/svn/llvm-project/clang-tools-extra/tags/RELEASE_360/final clang-tools-extra-3.6.0
-svn co http://llvm.org/svn/llvm-project/test-suite/tags/RELEASE_360/final test-suite-3.6.0
+svn co http://llvm.org/svn/llvm-project/llvm/tags/RELEASE_370/final llvm-3.7.0
+svn co http://llvm.org/svn/llvm-project/cfe/tags/RELEASE_370/final clang-3.7.0
+svn co http://llvm.org/svn/llvm-project/dragonegg/tags/RELEASE_370/final dragonegg-3.7.0
+svn co http://llvm.org/svn/llvm-project/compiler-rt/tags/RELEASE_370/final compiler-rt-3.7.0
+svn co http://llvm.org/svn/llvm-project/libcxx/tags/RELEASE_370/final libcxx-3.7.0
+svn co http://llvm.org/svn/llvm-project/lldb/tags/RELEASE_370/final lldb-3.7.0
+svn co http://llvm.org/svn/llvm-project/lld/tags/RELEASE_370/final lld-3.7.0
+svn co http://llvm.org/svn/llvm-project/polly/tags/RELEASE_370/final polly-3.7.0
+svn co http://llvm.org/svn/llvm-project/clang-tools-extra/tags/RELEASE_370/final clang-tools-extra-3.7.0
+svn co http://llvm.org/svn/llvm-project/test-suite/tags/RELEASE_370/final test-suite-3.7.0
 cd ../
 
 # --- BOOST ---
 mkdir 04-boost
 cd 04-boost
 wget http://www.boost.org/LICENSE_1_0.txt
-wget http://downloads.sourceforge.net/boost/boost/1.58.0/boost_1_58_0.tar.bz2
+wget http://downloads.sourceforge.net/boost/boost/1.59.0/boost_1_59_0.tar.bz2
 wget http://downloads.sourceforge.net/boost/boost-build-2.0-m12.tar.bz2
 wget http://www.boost.org/boost-build2/doc/userman.pdf -O boost-build2-userman.pdf
 cd ../
