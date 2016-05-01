@@ -34,3 +34,14 @@ wget http://thebeez.home.xs4all.nl/4tH/wwftk-1.7.1.tar.gz
 wget http://thebeez.home.xs4all.nl/4tH/bdde-1.7e-i386.tar.gz
 cd ../
 
+# --- OTHER ---
+mkdir 04-other
+cd 04-other
+git clone git://github.com/larsbrinkhoff/lbForth.git
+git clone git://github.com/narke/colorForth.git
+git clone git://github.com/forthy42/bigforth.git
+git clone git://github.com/matthin/cforth.git
+git clone git://github.com/philburk/pforth.git
+cd ../
+
+
