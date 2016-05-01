@@ -14,25 +14,25 @@ wget https://www.python.org/ftp/python/2.7.11/Python-2.7.11.tar.xz
 wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz
 wget https://docs.python.org/2.7/archives/python-2.7.11-docs-html.tar.bz2
 wget https://docs.python.org/3.5/archives/python-3.5.1-docs-html.tar.bz2
-git clone http://github.com/python/cpython.git
-git clone http://github.com/python/pythondotorg.git
-git clone http://github.com/python/psf-salt.git
-git clone http://github.com/python/psf-chef.git
-git clone http://github.com/python/peps.git
-git clone http://github.com/python/planet.git
-git clone http://github.com/python/speed.python.org.git
-git clone http://github.com/python/pypi-salt.git
-git clone http://github.com/python/pypi-cdn-log-archiver.git
-git clone http://github.com/python/psf-fastly.git
-git clone http://github.com/python/psf-ca.git
-git clone http://github.com/python/docsbuild-scripts.git
-git clone http://github.com/python/pycon-archive.git
-git clone http://github.com/python/raspberryio.git
-git clone http://github.com/python/pycon-code-of-conduct.git
-git clone http://github.com/python/community-starter-kit.git
-git clone http://github.com/python/psfoutreach.git
-git clone http://github.com/python/psf-docs.git
-git clone http://github.com/python/historic-python-materials.git
+git clone git://github.com/python/cpython.git
+git clone git://github.com/python/pythondotorg.git
+git clone git://github.com/python/psf-salt.git
+git clone git://github.com/python/psf-chef.git
+git clone git://github.com/python/peps.git
+git clone git://github.com/python/planet.git
+git clone git://github.com/python/speed.python.org.git
+git clone git://github.com/python/pypi-salt.git
+git clone git://github.com/python/pypi-cdn-log-archiver.git
+git clone git://github.com/python/psf-fastly.git
+git clone git://github.com/python/psf-ca.git
+git clone git://github.com/python/docsbuild-scripts.git
+git clone git://github.com/python/pycon-archive.git
+git clone git://github.com/python/raspberryio.git
+git clone git://github.com/python/pycon-code-of-conduct.git
+git clone git://github.com/python/community-starter-kit.git
+git clone git://github.com/python/psfoutreach.git
+git clone git://github.com/python/psf-docs.git
+git clone git://github.com/python/historic-python-materials.git
 cd ../
 
 # --- OTHER ---
