@@ -57,3 +57,9 @@ wget http://www.nordier.com/software/distfiles/bcpl-0.8a.tar.bz2
 wget http://www.nordier.com/software/distfiles/bcpltape.tar.xz
 cd ../
 
+mkdir 10-8l
+cd 10-8l
+git clone git://github.com/8l/bcpl.git
+cd ../
+
+
