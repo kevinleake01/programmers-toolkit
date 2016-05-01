@@ -38,16 +38,10 @@ git clone git://github.com/ldc-developers/ldc-scripts.git
 git clone git://github.com/ldc-developers/dmd-testsuite.git
 cd ../
 
-# --- TANGO-D ---
-mkdir 04-tango
-cd 04-tango
-svn co http://svn.dsource.org/projects/tango/trunk tango
-cd ../
-
 # --- OTHER ---
-mkdir 05-other
-cd 05-other
-git clone http://git.dsource.org/projects.git dsource-projects
+mkdir 04-other
+cd 04-other
+git clone git://git.dsource.org/projects.git dsource-projects
 wget http://ddili.org/ders/d.en/Programming_in_D.pdf
 wget http://www.quit-clan.de/docwiki/downloads/ddoc.pdf
 cd ../
