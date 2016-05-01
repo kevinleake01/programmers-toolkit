@@ -31,7 +31,6 @@ cd ../
 # ----- GCCGO -----
 mkdir 02-gccgo
 cd 02-gccgo
-svn co svn://gcc.gnu.org/svn/gcc/trunk/libgo gccgo
 wget https://gcc.gnu.org/onlinedocs/gccgo.pdf -O gccgo-docs.pdf
 wget https://gcc.gnu.org/onlinedocs/gccgo-html.tar.gz -O gccgo-docs.html.tar.gz
 cd ../
@@ -39,6 +38,6 @@ cd ../
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-git clone https://github.com/go-llvm/llgo.git
+git clone git://github.com/go-llvm/llgo.git
 cd ../
 
