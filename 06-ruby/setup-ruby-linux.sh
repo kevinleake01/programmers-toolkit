@@ -10,7 +10,6 @@
 # --- RUBY-LANG ---
 mkdir 01-ruby
 cd 01-ruby
-wget http://ftp.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.xz
 git clone http://github.com/ruby/ruby.git
 git clone http://github.com/ruby/www.ruby-lang.org.git
 git clone http://github.com/ruby/bugs.ruby-lang.org.git
