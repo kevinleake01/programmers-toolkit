@@ -67,8 +67,7 @@ cd 03-aboriginal
 wget http://landley.net/aboriginal/downloads/aboriginal-1.4.5.tar.gz
 wget http://landley.net/aboriginal/downloads/presentation.pdf
 wget http://landley.net/aboriginal/presentation.html
-hg clone http://landley.net/hg/aboriginal/
-wget http://landley.net/aboriginal/README
+git clone git://github.com/landley/aboriginal.git
 cd ../
 
 # --- KAARPUX ---
