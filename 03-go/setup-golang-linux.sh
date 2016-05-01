@@ -31,17 +31,14 @@ cd ../
 # ----- GCCGO -----
 mkdir 02-gccgo
 cd 02-gccgo
-svn co svn://gcc.gnu.org/svn/gcc/branches/gccgo/libgo gccgo-libgo
-svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_5_2_0_release/libgo gccgo-5.2.0
-wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/gccgo.pdf -O gccgo-docs-5.2.0.pdf
-wget https://gcc.gnu.org/onlinedocs/gcc-5.2.0/gccgo-html.tar.gz -O gccgo-docs-5.2.0.html.tar.gz
+svn co svn://gcc.gnu.org/svn/gcc/trunk/libgo gccgo
+wget https://gcc.gnu.org/onlinedocs/gccgo.pdf -O gccgo-docs.pdf
+wget https://gcc.gnu.org/onlinedocs/gccgo-html.tar.gz -O gccgo-docs.html.tar.gz
 cd ../
 
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-svn co http://llvm.org/svn/llvm-project/llgo/trunk llgo-latest
-git clone https://github.com/go-llvm/llvm.git go-llvm
-git clone https://github.com/go-llvm/llgo.git go-llgo
+git clone https://github.com/go-llvm/llgo.git
 cd ../
 
