@@ -22,7 +22,7 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-svn co svn://gcc.gnu.org/svn/gcc/trunk gcc
+git clone git://github.com/gcc-mirror/gcc.git
 wget https://gcc.gnu.org/onlinedocs/gcc-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/cpp-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/libstdc++-manual-html.tar.gz
@@ -35,16 +35,16 @@ cd ../
 # --- LLVM/CLANG ---
 mkdir 03-llvm-clang
 cd 03-llvm-clang
-svn co http://llvm.org/svn/llvm-project/llvm/trunk 01-llvm
-svn co http://llvm.org/svn/llvm-project/cfe/trunk 02-clang
-svn co http://llvm.org/svn/llvm-project/dragonegg/trunk 03-dragonegg
-svn co http://llvm.org/svn/llvm-project/compiler-rt/trunk 04-compiler-rt
-svn co http://llvm.org/svn/llvm-project/libcxx/trunk 05-libcxx
-svn co http://llvm.org/svn/llvm-project/lldb/trunk 06-lldb
-svn co http://llvm.org/svn/llvm-project/lld/trunk 07-lld
-svn co http://llvm.org/svn/llvm-project/polly/trunk 08-polly
-svn co http://llvm.org/svn/llvm-project/clang-tools-extra/trunk 09-clang-tools-extra
-svn co http://llvm.org/svn/llvm-project/test-suite/trunk 10-test-suite
+git clone git://github.com/llvm-mirror/llvm.git 01-llvm
+git clone git://github.com/llvm-mirror/clang.git 02-clang
+git clone git://github.com/llvm-mirror/dragonegg.git 03-dragonegg
+git clone git://github.com/llvm-mirror/compiler-rt.git 04-compiler-rt
+git clone git://github.com/llvm-mirror/libcxx.git 05-libcxx
+git clone git://github.com/llvm-mirror/lldb.git 06-lldb
+git clone git://github.com/llvm-mirror/lld.git 07-lld
+git clone git://github.com/llvm-mirror/polly.git 08-polly
+git clone git://github.com/llvm-mirror/clang-tools-extra.git 09-clang-tools-extra
+git clone git://github.com/llvm-mirror/test-suite.git 10-test-suite
 cd ../
 
 # --- BOOST ---
