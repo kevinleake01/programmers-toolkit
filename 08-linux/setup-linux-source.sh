@@ -11,11 +11,11 @@
 # --- LINUX FROM SCRATCH ---
 mkdir 01-lfs
 cd 01-lfs
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.9 lfs-7.9
-svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.9-systemd lfs-7.9-systemd
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.10 lfs-7.10
+svn co svn://wiki.linuxfromscratch.org/lfs/tags/7.10-systemd lfs-7.10-systemd
 svn co svn://wiki.linuxfromscratch.org/lfs/trunk lfs-latest
-svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.9 blfs-7.9
-svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.6-systemd blfs-7.6-systemd
+svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.10 blfs-7.10
+svn co svn://wiki.linuxfromscratch.org/blfs/tags/7.10-systemd blfs-7.10-systemd
 svn co svn://wiki.linuxfromscratch.org/blfs/trunk blfs-latest
 git clone git://git.clfs.org/cross-lfs.git clfs
 cd clfs
@@ -64,10 +64,8 @@ cd ../
 # --- ABORIGINAL LINUX ---
 mkdir 03-aboriginal
 cd 03-aboriginal
-wget http://landley.net/aboriginal/downloads/aboriginal-1.4.5.tar.gz
-wget http://landley.net/aboriginal/downloads/presentation.pdf
-wget http://landley.net/aboriginal/presentation.html
 git clone git://github.com/landley/aboriginal.git
+git clone git://github.com/landley/control-images.git
 cd ../
 
 # --- KAARPUX ---
@@ -76,4 +74,11 @@ cd 04-kaarpux
 wget http://sourceforge.net/projects/kaarpux/files/kaarpux/kaarpux-5.1.2.tar.gz
 git clone git://git.code.sf.net/p/kaarpux/code kaarpux
 cd ../
+
+# --- ARYALINUX ---
+mkdir 05-aryalinux
+cd 05-aryalinux
+git clone git://github.com/FluidIdeas/aryalinux.git
+cd ../
+
 
