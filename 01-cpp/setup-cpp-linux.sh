@@ -14,8 +14,7 @@ wget http://www.open-std.org/jtc1/sc22/wg14/www/docs/C99RationaleV5.10.pdf
 wget http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1539.pdf -O c-n1539.pdf
 wget http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf -O c-n1570.pdf
 wget http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2011/n3242.pdf -O cpp-n3242.pdf
-wget http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdf -O cpp-n3690.pdf
-wget http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3797.pdf -O cpp-n3797.pdf
+wget http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4618.pdf -O cpp-n4618.pdf
 wget http://www.open-std.org/jtc1/sc22/wg21/docs/TR18015.pdf
 cd ../
 
