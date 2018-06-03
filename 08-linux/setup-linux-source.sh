@@ -47,4 +47,21 @@ git clone git://github.com/FluidIdeas/aryalinux.git
 git clone git://github.com/FluidIdeas/alps.git
 cd ../
 
+# --- CRUX ---
+mkdir 05-crux
+cd 05-crux
+git clone git://crux.nu/ports/core.git
+git clone git://crux.nu/ports/opt.git
+git clone git://crux.nu/ports/contrib.git
+git clone git://crux.nu/ports/compat-32.git
+git clone git://crux.nu/system/iso.git
+git clone git://crux.nu/tools/mpup.git
+git clone git://crux.nu/tools/pkg-get.git
+git clone git://crux.nu/tools/pkgutils.git
+git clone git://crux.nu/tools/prt-get.git
+git clone git://crux.nu/tools/prt-utils.git
+git clone git://crux.nu/tools/webtools.git
+cd ../
+
+
 
