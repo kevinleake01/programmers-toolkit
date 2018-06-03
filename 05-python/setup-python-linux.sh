@@ -10,10 +10,10 @@
 # --- PYTHON.ORG ---
 mkdir 01-python
 cd 01-python
-wget https://www.python.org/ftp/python/2.7.11/Python-2.7.11.tar.xz
-wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz
-wget https://docs.python.org/2.7/archives/python-2.7.11-docs-html.tar.bz2
-wget https://docs.python.org/3.5/archives/python-3.5.1-docs-html.tar.bz2
+wget https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tar.xz
+wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
+wget https://docs.python.org/2.7/archives/python-2.7.15-docs-html.tar.bz2
+wget https://docs.python.org/3.6/archives/python-3.6.5-docs-html.tar.bz2
 git clone git://github.com/python/cpython.git
 git clone git://github.com/python/pythondotorg.git
 git clone git://github.com/python/psf-salt.git
