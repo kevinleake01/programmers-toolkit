@@ -19,6 +19,7 @@ svn co svn://svn.linuxfromscratch.org/alfs/jhalfs/trunk jhalfs-latest
 svn co svn://svn.linuxfromscratch.org/hlfs/tags/release-0.6 hlfs-0.6
 svn co svn://svn.linuxfromscratch.org/hlfs/branches hlfs-branches
 svn co svn://svn.linuxfromscratch.org/hints/trunk lfs-hints
+svn co svn://svn.linuxfromscratch.org/LFS/tags/lfs-bootscripts-3.2.2
 wget http://cblfs.clfs.org/index.php/Main_Page -O CBLFS-index.html
 wget http://www.lfscript.org/latest.tar.xz -O lfscript-latest.tar.xz
 cd ../
@@ -35,7 +36,7 @@ cd ../
 
 # --- MKROOT ---
 mkdir 03-mkroot
-cd 03-mktoot
+cd 03-mkroot
 git clone git://github.com/landley/mkroot.git
 cd ../
 
