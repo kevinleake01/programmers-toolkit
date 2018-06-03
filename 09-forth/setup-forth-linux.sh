@@ -23,15 +23,7 @@ cd ../
 # --- 4TH ---
 mkdir 03-4th
 cd 03-4th
-wget http://sourceforge.net/projects/forth-4th/files/4th-3.62.3/4th-3.62.3-unix.tar.gz
-wget http://thebeez.home.xs4all.nl/4tH/4tHmanual.tar.gz
-wget http://thebeez.home.xs4all.nl/4tH/4tHmanual.pdf
-wget http://thebeez.home.xs4all.nl/4tH/4thgui.zip
-wget http://thebeez.home.xs4all.nl/4tH/4thed.zip
-wget http://thebeez.home.xs4all.nl/4tH/red.zip
-wget http://thebeez.home.xs4all.nl/4tH/maketree.zip
-wget http://thebeez.home.xs4all.nl/4tH/wwftk-1.7.1.tar.gz
-wget http://thebeez.home.xs4all.nl/4tH/bdde-1.7e-i386.tar.gz
+wget http://sourceforge.net/projects/forth-4th/files/4th-3.62.5/4th-3.62.5-unix.tar.gz
 cd ../
 
 # --- OTHER ---
