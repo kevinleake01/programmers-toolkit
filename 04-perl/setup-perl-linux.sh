@@ -6,7 +6,6 @@
 # This script requires Subversion (SVN), Git and Hg (Mercurial)
 # installed on your computer.
 #
-#
 # --- PERL.ORG ---
 mkdir 01-perl
 cd 01-perl
@@ -19,7 +18,7 @@ cd ../
 # --- CPAN ---
 mkdir 02-cpan
 cd 02-cpan
-wget http://www.cpan.org/src/5.0/perl-5.22.2.tar.xz
+wget http://www.cpan.org/src/5.0/perl-5.27.9.tar.xz
 git clone git://github.com/andk/cpanpm.git
 git clone git://github.com/jib/cpanplus-devel.git
 cd ../
