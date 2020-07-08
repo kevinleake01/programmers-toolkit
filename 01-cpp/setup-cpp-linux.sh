@@ -21,29 +21,18 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-git clone git://github.com/gcc-mirror/gcc.git
+git clone git://gcc.gnu.org/git/gcc.git
 wget https://gcc.gnu.org/onlinedocs/gcc-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/cpp-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/libstdc++-manual-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/libstdc++-api-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/libgomp-html.tar.gz
-wget https://gcc.gnu.org/onlinedocs/libquadmath-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/docs-sources.tar.gz
 cd ../
 
-# --- LLVM/CLANG ---
-mkdir 03-llvm-clang
-cd 03-llvm-clang
-git clone git://github.com/llvm-mirror/llvm.git 01-llvm
-git clone git://github.com/llvm-mirror/clang.git 02-clang
-git clone git://github.com/llvm-mirror/dragonegg.git 03-dragonegg
-git clone git://github.com/llvm-mirror/compiler-rt.git 04-compiler-rt
-git clone git://github.com/llvm-mirror/libcxx.git 05-libcxx
-git clone git://github.com/llvm-mirror/lldb.git 06-lldb
-git clone git://github.com/llvm-mirror/lld.git 07-lld
-git clone git://github.com/llvm-mirror/polly.git 08-polly
-git clone git://github.com/llvm-mirror/clang-tools-extra.git 09-clang-tools-extra
-git clone git://github.com/llvm-mirror/test-suite.git 10-test-suite
+# --- LLVM ---
+mkdir 03-llvm
+cd 03-llvm
+git clone git://github.com/llvm/llvm-project.git
 cd ../
 
 # --- BOOST ---

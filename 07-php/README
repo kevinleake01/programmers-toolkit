@@ -9,14 +9,13 @@ PHP is a web server based scripting programming language.
 
 For those using Linux, there is a script named "setup-php-linux.sh" which will
 download various PHP Scripting language related documentation to your computer.
-It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
 
 
 Links:
 
 http://php.net/
-http://www.dmoz.org/Computers/Programming/Languages/PHP
 http://en.wikipedia.org/wiki/Php
+https://curlie.org/en/Computers/Programming/Languages/PHP/
 http://rosettacode.org/wiki/PHP
 
 

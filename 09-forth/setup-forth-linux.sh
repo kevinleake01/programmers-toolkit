@@ -2,10 +2,6 @@
 # This script will download various Forth programming language
 # documentation and goodies to your computer.
 #
-# This script requires Subversion (SVN), Git, and Hg (Mercurial)
-# installed on your computer.
-#
-#
 # --- FORTH.COM ---
 mkdir 01-forth
 cd 01-forth

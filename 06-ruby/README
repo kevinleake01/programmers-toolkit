@@ -10,7 +10,6 @@ has the backing of the international standard of ISO/IEC 30170:2012.
 
 For those using Linux, there is a script named "setup-ruby-linux.sh" which will
 download various Ruby programming language related documentation to your computer.
-It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
 
 
 Links:
@@ -21,8 +20,8 @@ http://www.ruby-doc.org/
 http://www.rdoc.info/
 http://www.mruby.org/
 https://www.ruby-toolbox.com/
-http://www.dmoz.org/Computers/Programming/Languages/Ruby
 http://en.wikipedia.org/wiki/Ruby_%28programming_language%29
+https://www.curlie.org/en/Computers/Programming/Languages/Ruby/
 http://rosettacode.org/wiki/Ruby
 http://rubyonrails.org/
 

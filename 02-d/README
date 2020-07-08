@@ -6,7 +6,6 @@
 
 For those using Linux, there is a script named "setup-d-linux.sh" which will
 download various D programming language related documentation to your computer.
-It will require Subversion (SVN), Git and Hg (Mercurial) to be installed.
 
 
 Links:
@@ -17,8 +16,8 @@ http://www.dsource.org/
 http://www.prowiki.org/wiki4d/wiki.cgi
 http://code.dlang.org/
 http://ddili.org/ders/d.en/index.html
-http://www.dmoz.org/Computers/Programming/Languages/D/
 http://en.wikipedia.org/wiki/D_programming
+https://www.curlie.org/en/Computers/Programming/Languages/D
 http://rosettacode.org/wiki/D
 
 

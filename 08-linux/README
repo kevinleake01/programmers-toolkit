@@ -9,8 +9,7 @@ Here is your chance to put your programming skills to the test, and see what
 it is like to build a complete Linux OS completely from the ground up.
 
 For those already using Linux, there is a script named "setup-linux-source.sh"
-which will download various related documentation to your computer. It will
-require Subversion (SVN), Git, and Hg (Mercurial) to be installed.
+which will download various related documentation to your computer.
 
 
 Links:

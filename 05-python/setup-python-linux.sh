@@ -3,36 +3,13 @@
 # This script will download various Python programming language
 # documentation and goodies to your computer.
 #
-# This script requires Subversion (SVN), Git and Hg (Mercurial)
-# installed on your computer.
-#
-#
 # --- PYTHON.ORG ---
 mkdir 01-python
 cd 01-python
-wget https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tar.xz
-wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
-wget https://docs.python.org/2.7/archives/python-2.7.15-docs-html.tar.bz2
-wget https://docs.python.org/3.6/archives/python-3.6.5-docs-html.tar.bz2
+wget https://www.python.org/ftp/python/3.8.3/Python-3.8.3.tar.xz
+wget https://docs.python.org/3.8/archives/python-3.8.3-docs-html.tar.bz2
 git clone git://github.com/python/cpython.git
 git clone git://github.com/python/pythondotorg.git
-git clone git://github.com/python/psf-salt.git
-git clone git://github.com/python/psf-chef.git
-git clone git://github.com/python/peps.git
-git clone git://github.com/python/planet.git
-git clone git://github.com/python/speed.python.org.git
-git clone git://github.com/python/pypi-salt.git
-git clone git://github.com/python/pypi-cdn-log-archiver.git
-git clone git://github.com/python/psf-fastly.git
-git clone git://github.com/python/psf-ca.git
-git clone git://github.com/python/docsbuild-scripts.git
-git clone git://github.com/python/pycon-archive.git
-git clone git://github.com/python/raspberryio.git
-git clone git://github.com/python/pycon-code-of-conduct.git
-git clone git://github.com/python/community-starter-kit.git
-git clone git://github.com/python/psfoutreach.git
-git clone git://github.com/python/psf-docs.git
-git clone git://github.com/python/historic-python-materials.git
 cd ../
 
 # --- OTHER ---
