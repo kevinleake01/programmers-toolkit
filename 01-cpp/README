@@ -10,24 +10,25 @@ they include Perl, Python, Ruby, and D.
 
 For those using Linux, there is a script named "setup-cpp-linux.sh" which will
 download various C, and C++ programming language related documentation to your
-computer. It will require Subversion (SVN), Git and Hg (Mercurial) to be
-installed.
+computer.
 
 
 Links:
 
 http://www.open-std.org/jtc1/sc22/wg14  -- C Official website
 http://www.open-std.org/jtc1/sc22/wg21  -- C++ Official website
+http://www.iso-9899.info/wiki/Main_Page
 http://isocpp.org/
+https://www.stroustrup.com/C++.html
 http://en.cppreference.com/
 http://www.cplusplus.com/
 http://www.cprogramming.com/
 http://www.learncpp.com/
-http://www.deitel.com/C
-http://www.deitel.com/cplusplus
 http://www.hal9k.com/cug/
 http://en.wikipedia.org/wiki/C_programming
 http://en.wikipedia.org/wiki/C%2B%2B
+https://en.wikibooks.org/wiki/C_Programming
+https://en.wikibooks.org/wiki/C++_Programming
 https://www.curlie.org/en/Computers/Programming/Languages/C
 https://www.curlie.org/en/Computers/Programming/Languages/C%2B%2B
 http://rosettacode.org/wiki/C
@@ -40,6 +41,15 @@ http://www.codeblocks.org/  -- C/C++ IDE
 http://invisible-island.net/bcpp/bcpp.html  -- BCPP tidies up C/C++ source files
 http://sourceforge.net/projects/ctocpp/  -- CTOCPP converts C to C++
 http://sourceforge.net/projects/uncrustify/  -- UNCRUSTIFY tidies up C/C++ source files
+https://www.onlinegdb.com/online_c_compiler -- Online C Compiler
+https://www.onlinegdb.com/online_c++_compiler -- Online C++ Compiler
+https://www.tutorialspoint.com/compile_cpp_online.php -- Online C++ Compiler
+https://www.jdoodle.com/online-compiler-c++/ -- Online C++ Compiler
+https://rextester.com/l/cpp_online_compiler_gcc -- Online C++ Compiler
+https://ideone.com/l/cpp -- Online C++ Compiler
+https://onecompiler.com/cpp -- Online C++ Compiler
+https://repl.it/languages/cpp11 -- Online C++ Compiler
+http://coliru.stacked-crooked.com/ -- Online C++ Compiler
 
 
 Books:
