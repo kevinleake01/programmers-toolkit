@@ -19,13 +19,10 @@ http://www.linuxfromscratch.org/
 --- http://linuxfromscratch.org/lfs/downloads/stable-systemd/
 --- http://linuxfromscratch.org/blfs/downloads/stable/
 --- http://linuxfromscratch.org/blfs/downloads/stable-systemd/
---- http://linuxfromscratch.org/alfs/downloads/jhalfs/stable/
+--- http://linuxfromscratch.org/alfs/
 --- http://linuxfromscratch.org/mirrors.html
-http://nutyx.org/en/
-https://github.com/landley/mkroot
-http://aryalinux.org/
-http://www.funtoo.org/
---- https://github.com/funtoo
+http://t2sde.org/
+https://github.com/landley/toybox
 https://crux.nu/
 
 

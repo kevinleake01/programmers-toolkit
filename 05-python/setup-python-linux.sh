@@ -6,10 +6,9 @@
 # --- PYTHON.ORG ---
 mkdir 01-python
 cd 01-python
-wget https://www.python.org/ftp/python/3.8.3/Python-3.8.3.tar.xz
-wget https://docs.python.org/3.8/archives/python-3.8.3-docs-html.tar.bz2
 git clone git://github.com/python/cpython.git
 git clone git://github.com/python/pythondotorg.git
+git clone git://github.com/python/devguide.git
 cd ../
 
 # --- OTHER ---
