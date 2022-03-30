@@ -5,9 +5,9 @@
 # --- VLANG ---
 mkdir 01-vlang
 cd 01-vlang
-git clone git://github.com/vlang/v.git
-git clone git://github.com/vlang/ui.git
-git clone git://github.com/vlang/awesome-v.git
+git clone https://github.com/vlang/v
+git clone https://github.com/vlang/ui
+git clone https://github.com/vlang/awesome-v
 cd ../
 
 

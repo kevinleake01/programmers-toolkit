@@ -59,7 +59,7 @@ cd ../
 
 mkdir 10-8l
 cd 10-8l
-git clone git://github.com/8l/bcpl.git
+git clone https://github.com/8l/bcpl
 cd ../
 
 

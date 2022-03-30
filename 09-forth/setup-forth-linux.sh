@@ -13,7 +13,7 @@ cd ../
 # --- GFORTH ---
 mkdir 02-gforth
 cd 02-gforth
-git clone http://git.savannah.gnu.org/cgit/gforth.git
+git clone http://git.savannah.gnu.org/cgit/gforth
 cd ../
 
 # --- 4TH ---
@@ -25,11 +25,11 @@ cd ../
 # --- OTHER ---
 mkdir 04-other
 cd 04-other
-git clone git://github.com/larsbrinkhoff/lbForth.git
-git clone git://github.com/narke/colorForth.git
-git clone git://github.com/forthy42/bigforth.git
-git clone git://github.com/matthin/cforth.git
-git clone git://github.com/philburk/pforth.git
+git clone https://github.com/larsbrinkhoff/lbForth
+git clone https://github.com/narke/colorForth
+git clone https://github.com/forthy42/bigforth
+git clone https://github.com/matthin/cforth
+git clone https://github.com/philburk/pforth
 cd ../
 
 

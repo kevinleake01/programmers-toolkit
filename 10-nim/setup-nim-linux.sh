@@ -5,9 +5,9 @@
 # --- NIM-LANG ---
 mkdir 01-nim
 cd 01-nim
-git clone git://github.com/nim-lang/Nim.git
-git clone git://github.com/nim-lang/nimble.git
-git clone git://github.com/nim-lang/packages.git
+git clone https://github.com/nim-lang/Nim
+git clone https://github.com/nim-lang/nimble
+git clone https://github.com/nim-lang/packages
 cd ../
 
 

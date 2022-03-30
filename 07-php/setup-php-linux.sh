@@ -6,7 +6,7 @@
 # --- PHP.NET ---
 mkdir 01-php
 cd 01-php
-git clone git://github.com/php/php-src.git
-git clone git://github.com/php/presentations.git
+git clone https://github.com/php/php-src
+git clone https://github.com/php/presentations
 cd ../
 

@@ -9,21 +9,21 @@
 # --- LINUX FROM SCRATCH ---
 mkdir 01-lfs
 cd 01-lfs
-git clone git://git.linuxfromscratch.org/lfs.git 01-lfs
-git clone git://git.linuxfromscratch.org/blfs.git 02-blfs
-git clone git://git.linuxfromscratch.org/jhalfs.git 03-jhalfs
+git clone https://git.linuxfromscratch.org/lfs 01-lfs
+git clone https://git.linuxfromscratch.org/blfs 02-blfs
+git clone https://git.linuxfromscratch.org/jhalfs 03-jhalfs
 cd ../
 
 # --- T2 SDE ---
 mkdir 02-t2sde
 cd 02-t2sde
-git clone git://github.com/rxrbln/t2sde.git
+git clone https://github.com/rxrbln/t2sde
 cd ../
 
 # --- TOYBOX ---
 mkdir 03-toybox
 cd 03-toybox
-git clone git://github.com/landley/toybox.git
+git clone https://github.com/landley/toybox
 cd ../
 
 
