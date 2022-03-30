@@ -22,7 +22,7 @@ cd ../
 # --- GCC ---
 mkdir 02-gcc
 cd 02-gcc
-git clone git://gcc.gnu.org/git/gcc.git
+git clone https://gcc.gnu.org/git/gcc
 wget https://gcc.gnu.org/onlinedocs/gcc-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/cpp-html.tar.gz
 wget https://gcc.gnu.org/onlinedocs/libstdc++-manual-html.tar.gz
@@ -33,14 +33,14 @@ cd ../
 # --- LLVM ---
 mkdir 03-llvm
 cd 03-llvm
-git clone git://github.com/llvm/llvm-project.git
+git clone https://github.com/llvm/llvm-project
 cd ../
 
 # --- BOOST ---
 mkdir 04-boost
 cd 04-boost
-git clone git://github.com/boostorg/boost.git
-git clone git://github.com/boostorg/build.git
+git clone https://github.com/boostorg/boost
+git clone https://github.com/boostorg/build
 cd ../
 
 # --- OTHER ---

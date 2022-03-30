@@ -6,15 +6,15 @@
 # --- PERL.ORG ---
 mkdir 01-perl
 cd 01-perl
-git clone git://github.com/Perl/perl5.git
-git clone git://github.com/Perl/metaconfig.git
+git clone https://github.com/Perl/perl5
+git clone https://github.com/Perl/metaconfig
 cd ../
 
 # --- METACPAN ---
 mkdir 02-metacpan
 cd 02-metacpan
-git clone git://github.com/metacpan/metacpan-web.git
-git clone git://github.com/metacpan/metacpan-examples.git
+git clone https://github.com/metacpan/metacpan-web
+git clone https://github.com/metacpan/metacpan-examples
 cd ../
 
 # --- OTHER ---

@@ -6,18 +6,18 @@
 # --- RUBY-LANG ---
 mkdir 01-ruby
 cd 01-ruby
-git clone git://github.com/ruby/ruby.git
-git clone git://github.com/ruby/www.ruby-lang.org.git
-git clone git://github.com/ruby/docs.ruby-lang.org.git
-git clone git://github.com/ruby/rake.git
-git clone git://github.com/ruby/rdoc.git
+git clone https://github.com/ruby/ruby
+git clone https://github.com/ruby/www.ruby-lang.org
+git clone https://github.com/ruby/docs.ruby-lang.org
+git clone https://github.com/ruby/rake
+git clone https://github.com/ruby/rdoc
 cd ../
 
 # --- RUBYGEMS ---
 mkdir 02-rubygems
 cd 02-rubygems
-git clone git://github.com/rubygems/rubygems.git
-git clone git://github.com/rubygems/rubygems.org.git
+git clone https://github.com/rubygems/rubygems
+git clone https://github.com/rubygems/rubygems.org
 cd ../
 
 # --- OTHER ---

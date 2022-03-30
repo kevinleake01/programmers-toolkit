@@ -9,23 +9,23 @@
 # ----- GOLANG.ORG -----
 mkdir 01-golang
 cd 01-golang
-git clone git://github.com/golang/go.git
-git clone git://github.com/golang/tools.git
-git clone git://github.com/golang/mobile.git
-git clone git://github.com/golang/benchmarks.git
-git clone git://github.com/golang/talks.git
-git clone git://github.com/golang/crypto.git
-git clone git://github.com/golang/net.git
-git clone git://github.com/golang/blog.git
-git clone git://github.com/golang/text.git
-git clone git://github.com/golang/sys.git
-git clone git://github.com/golang/exp.git
-git clone git://github.com/golang/image.git
-git clone git://github.com/golang/geo.git
-git clone git://github.com/golang/gddo.git
-git clone git://github.com/golang/lint.git
-git clone git://github.com/golang/example.git
-git clone git://github.com/golang/glog.git
+git clone https://github.com/golang/go
+git clone https://github.com/golang/tools
+git clone https://github.com/golang/mobile
+git clone https://github.com/golang/benchmarks
+git clone https://github.com/golang/talks
+git clone https://github.com/golang/crypto
+git clone https://github.com/golang/net
+git clone https://github.com/golang/blog
+git clone https://github.com/golang/text
+git clone https://github.com/golang/sys
+git clone https://github.com/golang/exp
+git clone https://github.com/golang/image
+git clone https://github.com/golang/geo
+git clone https://github.com/golang/gddo
+git clone https://github.com/golang/lint
+git clone https://github.com/golang/example
+git clone https://github.com/golang/glog
 cd ../
 
 # ----- GCCGO -----
@@ -38,6 +38,6 @@ cd ../
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-git clone git://github.com/go-llvm/llgo.git
+git clone https://github.com/go-llvm/llgo
 cd ../
 

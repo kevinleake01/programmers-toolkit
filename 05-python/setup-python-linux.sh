@@ -6,9 +6,9 @@
 # --- PYTHON.ORG ---
 mkdir 01-python
 cd 01-python
-git clone git://github.com/python/cpython.git
-git clone git://github.com/python/pythondotorg.git
-git clone git://github.com/python/devguide.git
+git clone https://github.com/python/cpython
+git clone https://github.com/python/pythondotorg
+git clone https://github.com/python/devguide
 cd ../
 
 # --- OTHER ---
