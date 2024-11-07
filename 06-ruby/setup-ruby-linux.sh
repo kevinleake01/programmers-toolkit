@@ -23,7 +23,6 @@ cd ../
 # --- OTHER ---
 mkdir 03-other
 cd 03-other
-wget http://webstore.iec.ch/preview/info_isoiec30170%7Bed1.0%7Den.pdf
-wget http://upload.wikimedia.org/wikipedia/commons/e/ee/Ruby_Programming.pdf
+wget https://upload.wikimedia.org/wikipedia/commons/e/ee/Ruby_Programming.pdf
 cd ../
 

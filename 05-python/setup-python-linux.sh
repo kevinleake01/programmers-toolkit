@@ -14,6 +14,6 @@ cd ../
 # --- OTHER ---
 mkdir 02-other
 cd 02-other
-wget http://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf
+wget https://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf
 cd ../
 

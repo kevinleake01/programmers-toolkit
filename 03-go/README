@@ -15,16 +15,14 @@ It will require Subversion (SVN), Git, and Hg (Mercurial) to be installed.
 
 Links:
 
-http://golang.org/
-https://code.google.com/p/go/
-http://www.golang-book.com/
-http://godoc.org/
-http://gofmt.com/
-http://go-lang.cat-v.org/
-http://en.wikipedia.org/wiki/Go_%28programming_language%29
-http://rosettacode.org/wiki/Go
-http://gccgo.sourceforge.net/
-https://code.google.com/p/llgo/
+https://go.dev/
+https://github.com/golang/go
+https://godoc.org/
+https://gofmt.com/
+https://en.wikipedia.org/wiki/Go_%28programming_language%29
+https://rosettacode.org/wiki/Category:Go
+https://gcc.gnu.org/onlinedocs/gccgo/
+https://github.com/goplus/llgo
 
 
 Books:

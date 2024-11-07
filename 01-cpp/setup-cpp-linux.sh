@@ -10,13 +10,13 @@
 # --- C++ STANDARDS DRAFTS ---
 mkdir 01-stdcpp
 cd 01-stdcpp
-wget http://www.open-std.org/jtc1/sc22/wg14/www/docs/C99RationaleV5.10.pdf
-wget http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1539.pdf -O c-n1539.pdf
-wget http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf -O c-n1570.pdf
-wget http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2011/n3242.pdf -O cpp-n3242.pdf
-wget http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3797.pdf -O cpp-n3797.pdf
-wget http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4618.pdf -O cpp-n4618.pdf
-wget http://www.open-std.org/jtc1/sc22/wg21/docs/TR18015.pdf
+wget https://www.open-std.org/jtc1/sc22/wg14/www/docs/C99RationaleV5.10.pdf
+wget https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1539.pdf -O c-n1539.pdf
+wget https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf -O c-n1570.pdf
+wget https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2011/n3242.pdf -O cpp-n3242.pdf
+wget https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3797.pdf -O cpp-n3797.pdf
+wget https://www.open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4618.pdf -O cpp-n4618.pdf
+wget https://www.open-std.org/jtc1/sc22/wg21/docs/TR18015.pdf
 cd ../
 
 # --- GCC ---
@@ -46,7 +46,7 @@ cd ../
 # --- OTHER ---
 mkdir 05-other
 cd 05-other
-wget http://upload.wikimedia.org/wikipedia/commons/0/07/C_Programming.pdf
-wget http://upload.wikimedia.org/wikipedia/commons/e/e9/CPlusPlusProgramming.pdf
-wget http://www.cplusplus.com/files/tutorial.pdf -O cplusplus-tutorial.pdf
+wget https://upload.wikimedia.org/wikipedia/commons/0/07/C_Programming.pdf
+wget https://upload.wikimedia.org/wikipedia/commons/e/e9/CPlusPlusProgramming.pdf
+wget https://www.cplusplus.com/files/tutorial.pdf -O cplusplus-tutorial.pdf
 cd ../

@@ -20,6 +20,6 @@ cd ../
 # --- OTHER ---
 mkdir 03-other
 cd 03-other
-wget http://upload.wikimedia.org/wikipedia/commons/c/cb/Perl_Programming.pdf
+wget https://upload.wikimedia.org/wikipedia/commons/c/cb/Perl_Programming.pdf
 cd ../
 

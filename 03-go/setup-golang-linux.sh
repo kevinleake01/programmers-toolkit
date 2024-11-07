@@ -38,6 +38,6 @@ cd ../
 # ----- LLVM/LLGO -----
 mkdir 03-llvm-llgo
 cd 03-llvm-llgo
-git clone https://github.com/go-llvm/llgo
+git clone https://github.com/goplus/llgo
 cd ../
 

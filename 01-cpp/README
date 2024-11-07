@@ -15,32 +15,32 @@ computer.
 
 Links:
 
-http://www.open-std.org/jtc1/sc22/wg14  -- C Official website
-http://www.open-std.org/jtc1/sc22/wg21  -- C++ Official website
-http://www.iso-9899.info/wiki/Main_Page
-http://isocpp.org/
+https://www.open-std.org/jtc1/sc22/wg14  -- C Official website
+https://www.open-std.org/jtc1/sc22/wg21  -- C++ Official website
+https://www.iso-9899.info/wiki/Main_Page
+https://isocpp.org/
 https://www.stroustrup.com/C++.html
-http://en.cppreference.com/
-http://www.cplusplus.com/
-http://www.cprogramming.com/
-http://www.learncpp.com/
-http://www.hal9k.com/cug/
-http://en.wikipedia.org/wiki/C_programming
-http://en.wikipedia.org/wiki/C%2B%2B
+https://en.cppreference.com/
+https://www.cplusplus.com/
+https://www.cprogramming.com/
+https://www.learncpp.com/
+https://www.hal9k.com/cug/
+https://en.wikipedia.org/wiki/C_programming
+https://en.wikipedia.org/wiki/C%2B%2B
 https://en.wikibooks.org/wiki/C_Programming
 https://en.wikibooks.org/wiki/C++_Programming
 https://www.curlie.org/en/Computers/Programming/Languages/C
 https://www.curlie.org/en/Computers/Programming/Languages/C%2B%2B
-http://rosettacode.org/wiki/C
-http://rosettacode.org/wiki/C%2B%2B
-http://gcc.gnu.org/
-http://clang.llvm.org/
+https://rosettacode.org/wiki/Category:C
+https://rosettacode.org/wiki/Category:C%2B%2B
+https://gcc.gnu.org/
+https://clang.llvm.org/
 
-http://www.boost.org/  -- Extra libraries for C++
-http://www.codeblocks.org/  -- C/C++ IDE
-http://invisible-island.net/bcpp/bcpp.html  -- BCPP tidies up C/C++ source files
-http://sourceforge.net/projects/ctocpp/  -- CTOCPP converts C to C++
-http://sourceforge.net/projects/uncrustify/  -- UNCRUSTIFY tidies up C/C++ source files
+https://www.boost.org/  -- Extra libraries for C++
+https://www.codeblocks.org/  -- C/C++ IDE
+https://invisible-island.net/bcpp/bcpp.html  -- BCPP tidies up C/C++ source files
+https://sourceforge.net/projects/ctocpp/  -- CTOCPP converts C to C++
+https://sourceforge.net/projects/uncrustify/  -- UNCRUSTIFY tidies up C/C++ source files
 https://www.onlinegdb.com/online_c_compiler -- Online C Compiler
 https://www.onlinegdb.com/online_c++_compiler -- Online C++ Compiler
 https://www.tutorialspoint.com/compile_cpp_online.php -- Online C++ Compiler
@@ -49,7 +49,7 @@ https://rextester.com/l/cpp_online_compiler_gcc -- Online C++ Compiler
 https://ideone.com/l/cpp -- Online C++ Compiler
 https://onecompiler.com/cpp -- Online C++ Compiler
 https://repl.it/languages/cpp11 -- Online C++ Compiler
-http://coliru.stacked-crooked.com/ -- Online C++ Compiler
+https://coliru.stacked-crooked.com/ -- Online C++ Compiler
 
 
 Books:

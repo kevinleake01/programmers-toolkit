@@ -14,14 +14,14 @@ which will download various related documentation to your computer.
 
 Links:
 
-http://www.linuxfromscratch.org/
---- http://linuxfromscratch.org/lfs/downloads/stable/
---- http://linuxfromscratch.org/lfs/downloads/stable-systemd/
---- http://linuxfromscratch.org/blfs/downloads/stable/
---- http://linuxfromscratch.org/blfs/downloads/stable-systemd/
---- http://linuxfromscratch.org/alfs/
---- http://linuxfromscratch.org/mirrors.html
-http://t2sde.org/
+https://www.linuxfromscratch.org/
+--- https://linuxfromscratch.org/lfs/downloads/stable/
+--- https://linuxfromscratch.org/lfs/downloads/stable-systemd/
+--- https://linuxfromscratch.org/blfs/downloads/stable/
+--- https://linuxfromscratch.org/blfs/downloads/stable-systemd/
+--- https://linuxfromscratch.org/alfs/
+--- https://linuxfromscratch.org/mirrors.html
+https://t2sde.org/
 https://github.com/landley/toybox
 https://crux.nu/
 
@@ -29,4 +29,6 @@ https://crux.nu/
 Books:
 
 ISBN-13: 9780991192755 -- LINUX FROM SCRATCH (LFS) 7.8
+<PDF Download>: https://linuxfromscratch.org/lfs/downloads/stable/LFS-12.2-SYSV-BOOK.pdf -- LINUX FROM SCRATCH (LFS) 12.2
+<PDF Download>: https://t2sde.org/handbook/ps+pdf/t2-handbook.pdf -- T2 HANDBOOK
 
